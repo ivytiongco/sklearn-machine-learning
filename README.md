@@ -14,6 +14,20 @@ To help process this data, you will create machine learning models capable of cl
 * Use GridSearch to tune model parameters.
 * Tune and compare at least two different classifiers.
 
-### Reporting
+### Summary of Findings
 
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
+The models looked at are normal neural network / deep learning, logistic regression, and SVM (support vector machine). 
+
+Normal neural network accuracy:
+
+![](deep_learning_accuracy.png)
+
+Logistic regression score:
+
+![](logistic_score.png)
+
+SVM score:
+
+![](svm_score.png)
+
+The normal neural network accuracy of 0.875 is the best of all 3 models. The loss of about 0.296 has room for improvement. This model is fairly good enough to predict new exoplanets; however, it may be improved by a higher number of epochs and/or an additional hidden layer.

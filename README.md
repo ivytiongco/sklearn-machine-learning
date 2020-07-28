@@ -30,4 +30,4 @@ SVM score:
 
 ![](svm_score.png)
 
-The normal neural network accuracy of 0.875 is the best of all 3 models. The loss of about 0.296 has room for improvement. This model is fairly good enough to predict new exoplanets; however, it may be improved by a higher number of epochs and/or an additional hidden layer.
+The normal neural network appears to be the best of all 3 models, with an accuracy of 0.875. However, the model's loss of about 0.296 has room for improvement. This model is fairly good enough to predict new exoplanets; however, it may be improved by a higher number of epochs and/or an additional hidden layer.
